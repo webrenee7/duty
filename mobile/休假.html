@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>休假</title>
+<link rel="stylesheet" type="text/css" href="res/css/mobile.css" />
+<script src="res/js/jquery.js"></script>
+<script src="res/js/app.js"></script>
+ 
+</head>
+<body onload="init()" onresize="init()">
+  	<div class="bg" id="bg">
+    	<div class="rest_box">
+            <div class="duty_list">
+                <div class="duty_body">
+                    <p class="vacation"><img src="res/images/duty.png" /></p>
+                    <p class="num1" id="num1">-3</p>
+                    <p class="num2">1012位医生春节少休3634天假</p>
+                    <p class="txt_line">但求人间无病痛，情愿架上药蒙尘</p>
+                    <p class="two_btn">
+                        <input type="button" class="btn btn1" onclick="javascript:window.location.href='分享.html'" />
+                        <input type="button" class="btn btn2" onclick="javascript:window.location.href='评论页.html'" />
+                    </p>
+                    <script>
+						function anmiate(){
+							$(".vacation img").animate({opacity:"0"},1000,
+								function(){$(this).attr("src","res/images/duty_on.png");
+								$(this).animate({opacity:"1"},1000,
+									function(){$("#num1").animate({opacity:"1"},500);});
+							});
+						}
+						t=setTimeout(anmiate,500);
+                    </script>
+                </div>
+            </div>
+            <div class="attention_box clearfix">
+                <div class="l_logo left"><img src="res/images/logo.png" /></div>
+                <div class="r_btn left">
+                    <p><input type="button" class="btn" /></p>
+                    <p>为280万中国医生而生</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

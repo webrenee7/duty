@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font:14px/24px "Microsoft YaHei","微软雅黑"; color:#333; background-color:#f1f1f1; word-wrap:break-word;}
+*{ margin:0; padding:0; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+ul,ol,li{ list-style:none outside;}
+a{ color:#666; text-decoration:none;}
+a:hover{ text-decoration:none;}
+.left{ float:left;}
+.right{ float:right;}
+.center{ text-align:center;}
+img{ width:100%; border:medium none; vertical-align:middle;}
+textarea{ resize:none; vertical-align:middle;}
+input,textarea{ -webkit-appearance:none; border:medium none; background:none; outline:none; font:1em/normal "Microsoft YaHei","微软雅黑";}
+.btn{ cursor:pointer;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; line-height:0; font-size:0; visibility:hidden;}
+
+/*猴年春节值班*/
+.bg{ background:url(../images/bg.jpg) no-repeat; -webkit-background-size:100% 100%;}
+.top{ padding-bottom:4%;}
+.duty_list{ width:85%; margin:0 auto 10%; background:url(../images/bg2.png) no-repeat; -webkit-background-size:100% 100%; padding:4%;}
+.duty_body{ background-color:#d01820; color:#ffffcc; margin-bottom:10%;}
+.duty_body ul{ padding-left:4%;}
+.duty_body ul li{ width:21%; float:left; margin:0 2% 6% 1%; cursor:pointer;}
+.submit_btn{ width:205px; height:33px; background:url(../images/btn.png) no-repeat; -webkit-background-size:100% 100%;}
+
+
+/*评论页*/
+.page_top,.page_btm{ width:92%; padding:0 4%; height:45px; line-height:45px; background-color:#fff; position:fixed;}
+.page_top{ font-size:15px; color:#666; text-align:center; top:0;}
+.page_top img{ width:auto; position:absolute; right:4%; top:9px;}
+.comment_box{ width:92%; padding:45px 4%; overflow-y:auto;}
+.comment_one{ display:-webkit-box; padding:3% 0; border-bottom:1px solid #ccc;}
+.l_img{ width:33px; height:33px; margin-right:8px;}
+.l_img img{ width:33px; height:33px; border-radius:100px;}
+.r_info{-webkit-box-flex:1;}
+.r_info .info{ line-height:20px; padding-top:18px;}
+.r_info span{ font-size:12px; color:#999;}
+.comment_box .btn{ width:70%; height:33px; line-height:33px; border:1px solid #cc0033; font-size:15px; color:#cc0033; border-radius:10px; margin:12% 0;}
+.page_btm{ border-top:1px solid #ccc; bottom:0; display:-webkit-box;}
+.page_btm span{ display:block; color:#cc0033;}
+.page_btm input[type="text"]{ display:block; -webkit-box-flex:1; height:26px; line-height:26px; font-size:12px; color:#999; background:url(../images/input_bg.jpg) no-repeat bottom center; -webkit-background-size:100% auto; padding:0 20px; margin:9px 10px 0 18px;}
+.page_btm input[type="button"]{ width:40px; height:26px; background-color:#cc0033; color:#fff; font-size:13px; margin-top:9px;}
+
+
+/*分享*/
+.cover_box{ width:100%; height:100%; position:fixed; top:0; left:0; background:rgba(0,0,0,0.75);}
+.share_box{ width:80%; position:fixed; top:8%; right:10%;}
+
+
+/*休假*/
+.rest_box{ padding-top:4%;}
+.vacation{ width:61%; padding:16% 20% 8%;}
+.num1{ font:bold 26px/30px "Airal"; text-align:center; opacity:0;}
+.num2{ font-size:18px; text-align:center; padding:5% 0 2%;}
+.txt_line{ font-size:12px; text-align:center;}
+.two_btn{ text-align:center; padding:7% 0 2%;}
+.two_btn .btn1{ width:111px; height:33px; background:url(../images/btn1.jpg) no-repeat; -webkit-background-size:100% 100%; margin-right:5%;}
+.two_btn .btn2{ width:130px; height:33px; background:url(../images/btn2.jpg) no-repeat; -webkit-background-size:100% 100%;}
+.attention_box{ width:92%; padding:9% 4%;}
+.l_logo{ padding:0 4% 0 14%;}
+.l_logo img{ width:97px; height:41px;}
+.r_btn{ text-align:center; font-size:12px; color:#666;}
+.r_btn input{ width:93px; height:22px; background:url(../images/attention_btn.png) no-repeat; -webkit-background-size:100% 100%;}
+

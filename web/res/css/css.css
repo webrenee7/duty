@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font:12px/24px "宋体"; color:#333; background-color:#f0c83f; word-wrap:break-word;}
+*{ margin:0; padding:0;}
+ul,ol,li{ list-style:none outside;}
+a{ color:#666; text-decoration:none;}
+a:hover{ text-decoration:none;}
+.left{ float:left;}
+.right{ float:right;}
+.center{ text-align:center;}
+.tx_r{ text-align:right;}
+.bold{ font-weight:bold;}
+img{ border:medium none; vertical-align:middle;}
+textarea{ resize:none; vertical-align:middle;}
+input,textarea{ -webkit-appearance:none; border:medium none; background:none; outline:none;}
+.btn{ cursor:pointer;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; line-height:0; font-size:0; visibility:hidden;}
+
+
+/*值班*/
+.wrapper{ width:960px; margin:0 auto;}
+.page_top{ background:url(../images/bg.jpg) no-repeat;}
+.top{ height:299px; background:url(../images/top.png) no-repeat;}
+.duty_list{ width:810px; margin:0 auto; padding:25px 0 64px;}
+.t_bor{ height:25px; background:url(../images/t_bor.jpg) no-repeat;}
+.b_bor{ height:25px; background:url(../images/b_bor.jpg) no-repeat;}
+.c_cont{ background:url(../images/bg2.jpg) no-repeat; padding:0 25px;}
+.cont_body{ background-color:#d01820; border:3px solid #cc3333;}
+.cont_top{ height:282px; background:url(../images/cont_top.jpg) no-repeat;}
+.duty_body{ width:640px; margin:0 auto; text-align:center; color:#ffffcc; font-family:"微软雅黑"; padding-bottom:50px;}
+.duty_body ul li{ width:110px; height:110px; float:left; margin:0 25px 37px;}
+.duty_body ul .btn{ width:110px; height:110px; background:url(../images/list.jpg) no-repeat;}
+.duty_body ul .btn1{ background-position:0 0;}
+.duty_body ul .btn2{ background-position:-160px 0;}
+.duty_body ul .btn3{ background-position:-319px 0;}
+.duty_body ul .btn4{ background-position:-482px 0;}
+.duty_body ul .btn5{ background-position:0 -151px;}
+.duty_body ul .btn6{ background-position:-160px -151px;}
+.duty_body ul .btn7{ background-position:-319px -151px;}
+.duty_body ul .btn8{ background-position:-482px -151px;}
+.duty_body ul .duty{ background-position:-640px 0;}
+.duty_body ul .rest{ background-position:-640px -151px;}
+.submit_btn{ text-align:center; padding-bottom:30px;}
+.submit_btn .btn{ width:304px; height:64px; background:url(../images/submit.png) no-repeat;}
+.submit_btn .btn_on{ background:url(../images/submit_on.png) no-repeat;}
+.font_36{ font-size:36px; line-height:40px;}
+.font_18{ font-size:18px; padding-top:12px;}
+.num{ padding:15px 0; opacity:0; filter:alpha(opacity=0); *zoom:1;}
+.rest_box{ display:none;}
+.comment_box{ padding:0 15px; background-color:#fff;}
+.comment_pub{ padding:0 22px;}
+.comment_pub p{ font-size:18px; padding-top:33px;}
+.comment_pub .txt_box{ position:relative; margin:14px 0 16px;}
+.comment_pub textarea{ width:864px; height:78px; border:1px solid #ccc; font-size:14px; color:#666; line-height:24px; padding:10px;}
+.comment_pub .msg{ position:absolute; top:11px; left:11px; color:#ccc; font-size:14px;}
+.comment_pub input{ width:100px; height:39px; background-color:#d01820; font-size:14px; font-weight:bold; color:#fff;}
+.comment_one{ width:910px; padding:20px 10px; border-bottom:1px solid #ccc;}
+.l_img{ width:62px; float:left;}
+.l_img img{ width:62px; height:62px; border-radius:100px;}
+.r_info{ width:828px; float:right;}
+.r_info .clearfix{ width:841px;}
+.r_info span{ color:#999;}
+.r_info .clearfix{ padding:2px 0 3px;}
+.r_info .right{ display:inline-block; width:75px; text-align:left;}
+.flip{ height:30px; text-align:center; padding:56px 0 166px;}
+.flip_list{ display:inline-block; *zoom:1; *display:inline;}
+.flip_list a{ display:block; float:left; width:28px; height:28px; line-height:26px; border:1px solid #ccc; text-align:center; margin:0 5px; font-size:14px; color:#666;}
+.flip_list a.cur{ width:30px; height:30px; line-height:30px; background-color:#d01820; border:none; color:#fff;}
+.flip_list .prev{ background:url(../images/prev.jpg) no-repeat;}
+.flip_list .next{ background:url(../images/next.jpg) no-repeat;}
+.flip_list span{ display:block; float:left; color:#666;}
+
+
+
+
